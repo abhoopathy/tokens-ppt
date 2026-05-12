@@ -1,0 +1,26 @@
+{
+  "name": "ppt",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "submodule:pull": "git submodule update --init --recursive --remote",
+    "theme:build": "cd theme && node theme.js",
+    "pptx:build": "node slides/generate.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "pptxgenjs": "^4.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-pptx": "^2.20.1"
+  }
+}
