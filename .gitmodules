@@ -1,0 +1,4 @@
+[submodule "forge-style-dict"]
+	path = tokens/forge-style-dict
+	url = https://github.com/abhoopathy/forge-style-dict.git
+	branch = mayorsoffice          # ← add this line
